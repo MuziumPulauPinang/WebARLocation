@@ -21,12 +21,7 @@
       
       <!-- Display 3D model at specific GPS location -->
       <!-- Muzium location latitude: 5.420413625; longitude: 100.3387683; altitude: -8.66; -->
-      <a-entity
-        gps-entity-place="latitude: 6.275771; longitude: 100.413588; altitude: -8.66;"
-        gltf-model="#museum-model"
-        scale="1 1 1"
-        rotation="0 180 0"  
-      ></a-entity>
+     <a-entity gltf-model="./assets/" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 12.489820; latitude: 41.892590;" animation-mixer/>
       
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
